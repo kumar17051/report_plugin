@@ -27,8 +27,7 @@ defined('MOODLE_INTERNAL') || die;
 
 $ADMIN->add('reports', new admin_externalpage('reportconfiglog_2', get_string('lastaddeduser', 'report_configlog_2'), "$CFG->wwwroot/report/configlog_2/index.php"));
 
-
-
+echo "hello";
 
 // no report settings
 $settings = null;
