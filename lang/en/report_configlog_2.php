@@ -15,20 +15,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Report settings
+ * Strings for component 'report_configlog', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package    report
- * @subpackage configlog_2
- * @copyright  2009 Petr Skoda
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   report
+ * @subplugin configlog
+ * @copyright 2009 petr Skoda
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die;
+$string['lastaddeduser'] = 'Last Added User';
 
-$ADMIN->add('reports', new admin_externalpage('reportconfiglog_2', get_string('lastaddeduser', 'report_configlog_2'), "$CFG->wwwroot/report/configlog_2/index.php"));
-
-
-
-
-// no report settings
-$settings = null;
